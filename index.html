@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Silicon Loops | AI Made Simple for Busy Founders</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "surface-bright": "#353944",
+                "on-primary-container": "#00566a",
+                "on-tertiary-fixed": "#291800",
+                "surface-variant": "#313540",
+                "on-tertiary-fixed-variant": "#624000",
+                "on-error": "#690005",
+                "secondary": "#a8c8ff",
+                "on-error-container": "#ffdad6",
+                "on-primary-fixed": "#001f28",
+                "on-tertiary": "#442b00",
+                "primary-fixed-dim": "#4cd6ff",
+                "background": "#0f131d",
+                "on-secondary-fixed-variant": "#00468b",
+                "surface-container-lowest": "#0a0e18",
+                "on-secondary-fixed": "#001b3d",
+                "on-surface-variant": "#bbc9cf",
+                "surface-container": "#1c1f2a",
+                "outline-variant": "#3c494e",
+                "surface-container-low": "#171b26",
+                "inverse-primary": "#00677f",
+                "tertiary-fixed-dim": "#ffba49",
+                "inverse-on-surface": "#2c303b",
+                "on-primary-fixed-variant": "#004e60",
+                "secondary-container": "#0360b9",
+                "on-surface": "#dfe2f1",
+                "tertiary": "#ffd59c",
+                "primary-fixed": "#b7eaff",
+                "surface-dim": "#0f131d",
+                "secondary-fixed": "#d6e3ff",
+                "tertiary-fixed": "#ffddb1",
+                "on-secondary-container": "#ccddff",
+                "error": "#ffb4ab",
+                "secondary-fixed-dim": "#a8c8ff",
+                "outline": "#859399",
+                "surface-container-highest": "#313540",
+                "error-container": "#93000a",
+                "surface-tint": "#4cd6ff",
+                "primary-container": "#00d1ff",
+                "on-tertiary-container": "#6b4700",
+                "surface-container-high": "#262a35",
+                "primary": "#a4e6ff",
+                "on-secondary": "#003062",
+                "on-background": "#dfe2f1",
+                "on-primary": "#003543",
+                "inverse-surface": "#dfe2f1",
+                "surface": "#0f131d",
+                "tertiary-container": "#feb127"
+              },
+              fontFamily: {
+                "headline": ["Manrope"],
+                "body": ["Manrope"],
+                "label": ["Manrope"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            },
+          },
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; background-color: #0f131d; color: #dfe2f1; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        .glass-panel { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        .text-glow { text-shadow: 0 0 15px rgba(0, 209, 255, 0.4); }
+        .bg-circuit { background-image: radial-gradient(#1c1f2a 1px, transparent 1px); background-size: 32px 32px; }
+    </style>
+</head>
+<body class="bg-background selection:bg-primary-container selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-slate-900/60 backdrop-blur-xl border-b border-slate-800/50 shadow-[0_20px_40px_rgba(0,209,255,0.08)]">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4">
+<div class="text-xl font-bold tracking-tighter text-slate-100 font-manrope">Silicon Loops</div>
+<div class="hidden md:flex items-center gap-10 font-manrope text-sm tracking-wide uppercase">
+<a class="text-cyan-400 font-bold border-b-2 border-cyan-400 pb-1" href="#">Services</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Process</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Results</a>
+<a class="text-slate-400 hover:text-slate-100 transition-colors" href="#">Insights</a>
+</div>
+<button class="bg-gradient-to-r from-primary-container to-secondary-container text-on-primary-fixed px-6 py-2.5 rounded-full font-bold text-xs tracking-widest uppercase scale-95 active:scale-90 transition-transform">
+                Get Started
+            </button>
+</div>
+</nav>
+<main class="relative pt-20">
+<!-- Hero Section: Problem-Focused Framing -->
+<section class="relative min-h-[85vh] flex items-center justify-start overflow-hidden px-8 md:px-24">
+<!-- Background Decoration -->
+<div class="absolute inset-0 z-0 opacity-20 pointer-events-none">
+<div class="absolute inset-0 bg-circuit"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-container/10 blur-[120px] rounded-full"></div>
+</div>
+<div class="relative z-10 max-w-4xl">
+<div class="mb-6">
+<span class="font-label text-primary text-xs tracking-[0.2em] uppercase font-bold px-3 py-1 bg-primary/10 rounded-full">For Ambitious Founders</span>
+</div>
+<h1 class="font-headline text-5xl md:text-8xl font-extrabold tracking-[-0.04em] leading-[0.95] text-slate-100 mb-8">
+                    Stop Guessing. <br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container to-secondary-container">Start Automating.</span>
+</h1>
+<p class="font-body text-slate-400 text-lg md:text-xl max-w-2xl leading-relaxed mb-12">
+                    Knowing AI is the future is easy. Knowing exactly where to start in your business is hard. We identify your highest-impact tasks and automate them, so you can focus on growth, not busywork.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-gradient-to-br from-primary-container to-secondary-container text-on-primary-fixed px-10 py-5 rounded-full font-bold text-sm tracking-widest uppercase hover:brightness-110 transition-all shadow-[0_0_25px_rgba(0,209,255,0.2)]">
+                        Identify My Best Opportunities
+                    </button>
+<button class="glass-panel bg-surface-variant/40 border-[0.5px] border-primary/20 text-slate-100 px-10 py-5 rounded-full font-bold text-sm tracking-widest uppercase hover:bg-surface-variant/60 transition-all">
+                        How it Works
+                    </button>
+</div>
+<div class="mt-12 flex items-center gap-6 text-slate-500 font-label text-xs uppercase tracking-widest">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg" data-icon="check_circle">check_circle</span>
+                        Reclaim 20+ Hours/Week
+                    </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-lg" data-icon="check_circle">check_circle</span>
+                        No Tech Expertise Required
+                    </div>
+</div>
+</div>
+<!-- Impactful Static Graphic -->
+<div class="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 w-2/5 h-[500px] items-center justify-center pr-24">
+<div class="relative w-full h-full border border-primary/10 rounded-2xl bg-surface-container-low/30 backdrop-blur-sm overflow-hidden flex items-center justify-center">
+<div class="p-12 text-center">
+<div class="mb-8 inline-flex items-center justify-center w-24 h-24 rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-5xl" data-icon="troubleshoot">troubleshoot</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-slate-100 mb-4">We find the "hidden" hours.</h3>
+<p class="text-slate-400">Our diagnostic tool maps your existing operations to find the exact workflows holding you back.</p>
+<div class="mt-10 grid grid-cols-2 gap-4">
+<div class="p-4 bg-surface-container rounded-lg border border-outline-variant/20">
+<div class="text-primary text-2xl font-bold">20h+</div>
+<div class="text-[10px] text-slate-500 uppercase tracking-tighter">Saved per week</div>
+</div>
+<div class="p-4 bg-surface-container rounded-lg border border-outline-variant/20">
+<div class="text-primary text-2xl font-bold">100%</div>
+<div class="text-[10px] text-slate-500 uppercase tracking-tighter">Custom Built</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section: Outcome-Focused -->
+<section class="py-32 px-8 max-w-7xl mx-auto border-t border-outline-variant/10">
+<div class="mb-20 text-center">
+<h2 class="font-label text-primary-container text-xs tracking-[0.2em] uppercase font-bold mb-4">Your Path to Freedom</h2>
+<h3 class="font-headline text-4xl md:text-5xl font-bold text-slate-100">Automation with Clarity</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+<!-- Time-Saving Audit -->
+<div class="group p-12 bg-surface-container-low transition-colors duration-500 hover:bg-surface-container border-r border-outline-variant/10">
+<div class="w-16 h-16 mb-12 flex items-center justify-center bg-primary/5 rounded-xl text-primary">
+<span class="material-symbols-outlined text-4xl" data-icon="query_stats">query_stats</span>
+</div>
+<h4 class="font-headline text-2xl font-bold text-slate-100 mb-6">Time-Saving Audit</h4>
+<p class="text-slate-400 leading-relaxed mb-10">We analyze your daily routine to pinpoint exactly where manual tasks are stealing your focus and killing your margins.</p>
+<div class="h-[1px] w-0 group-hover:w-full bg-primary transition-all duration-500"></div>
+</div>
+<!-- Seamless Workflow Integration -->
+<div class="group p-12 bg-surface-container-low transition-colors duration-500 hover:bg-surface-container border-r border-outline-variant/10">
+<div class="w-16 h-16 mb-12 flex items-center justify-center bg-primary/5 rounded-xl text-primary">
+<span class="material-symbols-outlined text-4xl" data-icon="auto_awesome_motion">auto_awesome_motion</span>
+</div>
+<h4 class="font-headline text-2xl font-bold text-slate-100 mb-6">Workflow Integration</h4>
+<p class="text-slate-400 leading-relaxed mb-10">We don't just give you tools; we build them directly into your existing process so they work quietly in the background.</p>
+<div class="h-[1px] w-0 group-hover:w-full bg-primary transition-all duration-500"></div>
+</div>
+<!-- Growth-First Support -->
+<div class="group p-12 bg-surface-container-low transition-colors duration-500 hover:bg-surface-container">
+<div class="w-16 h-16 mb-12 flex items-center justify-center bg-primary/5 rounded-xl text-primary">
+<span class="material-symbols-outlined text-4xl" data-icon="trending_up">trending_up</span>
+</div>
+<h4 class="font-headline text-2xl font-bold text-slate-100 mb-6">Continuous Growth</h4>
+<p class="text-slate-400 leading-relaxed mb-10">As your business grows, your automations evolve. We provide ongoing refinement to ensure you stay ahead of the curve.</p>
+<div class="h-[1px] w-0 group-hover:w-full bg-primary transition-all duration-500"></div>
+</div>
+</div>
+</section>
+<!-- Advantage Section: High-End Bento Grid -->
+<section class="py-32 px-8 bg-surface-container-lowest/50">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-12 gap-6">
+<!-- Text Block -->
+<div class="col-span-12 lg:col-span-4 mb-8 lg:mb-0">
+<h2 class="font-label text-primary text-xs tracking-[0.2em] uppercase font-bold mb-4">Why Silicon Loops</h2>
+<h3 class="font-headline text-4xl font-bold text-slate-100 mb-8 leading-tight">Focus on Growth, Not Busywork</h3>
+<p class="text-slate-500 leading-relaxed">Most founders get lost in the "how" of AI. We handle the technical heavy lifting so you can focus on the "what" — your vision and strategy.</p>
+</div>
+<!-- Advantage Grid -->
+<div class="col-span-12 lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="col-span-1 p-10 bg-surface-container-high rounded-xl flex flex-col justify-between border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary-fixed-dim text-4xl mb-8" data-icon="schedule">schedule</span>
+<div>
+<h5 class="font-headline text-xl font-bold text-slate-200 mb-3">Reclaim Your Calendar</h5>
+<p class="text-slate-400 text-sm">Our clients save an average of 20+ hours a week by automating recurring data and communication tasks.</p>
+</div>
+</div>
+<div class="col-span-1 p-10 bg-surface-container-high rounded-xl flex flex-col justify-between border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary-fixed-dim text-4xl mb-8" data-icon="rocket_launch">rocket_launch</span>
+<div>
+<h5 class="font-headline text-xl font-bold text-slate-200 mb-3">Scale Without New Hires</h5>
+<p class="text-slate-400 text-sm">Increase your output without increasing your headcount. Our digital systems scale infinitely with your success.</p>
+</div>
+</div>
+<div class="col-span-1 md:col-span-2 p-10 bg-surface-container-high rounded-xl flex items-center gap-8 border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary-fixed-dim text-5xl shrink-0" data-icon="psychology">psychology</span>
+<div>
+<h5 class="font-headline text-xl font-bold text-slate-200 mb-2">Eliminate Decision Fatigue</h5>
+<p class="text-slate-400 text-sm">Stop worrying about which AI tool to buy. We curate and build the specific stack that solves your unique friction points.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial Section -->
+<section class="py-32 px-8 overflow-hidden relative">
+<div class="max-w-5xl mx-auto glass-panel bg-surface-container-low/30 p-16 md:p-24 rounded-3xl relative border border-outline-variant/20">
+<span class="material-symbols-outlined text-primary/10 text-[120px] absolute -top-10 -left-10 select-none" data-icon="format_quote">format_quote</span>
+<div class="relative z-10 text-center">
+<p class="font-headline text-2xl md:text-4xl text-slate-200 italic leading-snug mb-12">
+                        "I knew AI could help, but I had no clue where to start. Silicon Loops identified the 3 biggest bottlenecks in our sales funnel and automated them. I got my weekends back."
+                    </p>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-surface-container-highest mb-4 border-2 border-primary/20 flex items-center justify-center overflow-hidden">
+<img alt="Marcus Chen" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6QR92wOe9VEdWVnZ_4WLWwMOx9ThceJXWRM1yFHpduN8LkAlwfHkZenQnhzN6_9cDjW9gSF_KTHE30gwVSmUKKdObhdzaZirFKoBXjFm1AUbzaL-6r0n4JNpY9Dp8tNyCSmSRmRsimXknZUPT4H3ijjs_jxOObVrZVgrgBCq8b8P7d9hR8jP1PE9ZhcFHIeNau_NIEE_iELimTE5cc1laNOJZ4-OIfQma8FWQ1bIvCv86fWHHyo3QKOLTDVI7zLtUx4wjVRAAcpQa"/>
+</div>
+<h6 class="font-bold text-slate-100 text-lg">Marcus Chen</h6>
+<span class="font-label text-primary text-xs tracking-widest uppercase">CEO, Vertex Logistics</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA: Outcome Oriented -->
+<section class="py-32 px-8 max-w-7xl mx-auto">
+<div class="relative overflow-hidden bg-surface-container-high rounded-3xl p-16 md:p-32 text-center group border border-outline-variant/10">
+<!-- Glowing background effect -->
+<div class="absolute inset-0 bg-gradient-to-br from-primary-container/10 via-transparent to-secondary-container/10 opacity-50"></div>
+<div class="relative z-10">
+<h2 class="font-headline text-5xl md:text-7xl font-black text-slate-100 mb-10 tracking-tighter">Ready to reclaim your time?</h2>
+<p class="font-body text-slate-400 text-lg mb-12 max-w-2xl mx-auto">
+                        Book a 15-minute diagnostic call. We'll show you exactly where AI can save you the most time.
+                    </p>
+<button class="bg-gradient-to-r from-primary-container to-secondary-container text-on-primary-fixed px-12 py-6 rounded-full font-extrabold text-sm tracking-[0.15em] uppercase shadow-[0_0_40px_rgba(0,209,255,0.3)] hover:scale-105 active:scale-95 transition-all">
+                        Schedule Your Free Time-Saving Audit
+                    </button>
+</div>
+<!-- Abstract Elements -->
+<div class="absolute -bottom-20 -right-20 w-64 h-64 bg-primary/10 rounded-full blur-[80px]"></div>
+<div class="absolute -top-20 -left-20 w-64 h-64 bg-secondary/10 rounded-full blur-[80px]"></div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-950 w-full py-12 px-8 border-t border-slate-800/30">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="text-lg font-black text-slate-200 tracking-tighter uppercase font-manrope">Silicon Loops</div>
+<div class="flex flex-wrap justify-center gap-8 font-manrope text-xs tracking-widest uppercase text-slate-500">
+<a class="text-slate-600 hover:text-cyan-300 transition-colors" href="#">Privacy Policy</a>
+<a class="text-slate-600 hover:text-cyan-300 transition-colors" href="#">Terms</a>
+<a class="text-slate-600 hover:text-cyan-300 transition-colors" href="#">Contact</a>
+<a class="text-slate-600 hover:text-cyan-300 transition-colors" href="#">System Status</a>
+</div>
+<div class="font-manrope text-xs tracking-widest uppercase text-slate-500 opacity-80">
+                © 2024 Silicon Loops. Simplicity for the AI Age.
+            </div>
+</div>
+</footer>
+</body></html>
